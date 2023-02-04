@@ -19,14 +19,12 @@ int main()
  
  while(metin[i] != '\0')
  {
-
   if(metin[i] == harf) 
   {
     HarfSayaci++;
   }
      
   i++;  
-   
  }
  
  printf("%c harfi metinde %d kez gecmektedir",harf,HarfSayaci);
